@@ -1,8 +1,26 @@
 aid: verge-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/verge-labs.png
 name: Verge Labs
-description: 'Verge Labs is a company surfaced as a portfolio company of threshold-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Verge Labs (formerly Verge Genomics) is a frontier AI company applying machine
+  learning to human biology, building an AI system designed to reason about neurological disease
+  at the patient level. Its stated goal is a "virtual biopsy of the brain" — a reconstructed
+  picture of what is happening inside a patient''s brain generated from a routine blood draw. The
+  company built proprietary genomic datasets from human brain tissue for neurodegenerative diseases
+  such as ALS and Parkinson''s, and after an early ALS clinical program refocused on AI methods for
+  matching brain therapeutics to the patients most likely to benefit. Verge is a research-stage
+  biotech/AI company backed by Threshold Ventures and other venture investors; it does not currently
+  publish a public developer API, SDKs, or a developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/verge-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- Artificial Intelligence
+- Machine Learning
+- Biotechnology
+- Life Sciences
+- Neuroscience
+- Drug Discovery
+- Genomics
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/verge-labs-domain-security.yml
 - type: Website
   url: https://vergelabs.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
